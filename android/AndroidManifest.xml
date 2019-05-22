@@ -2,7 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.mygdx.jumpactiongame" >
     <!-- 9にする -->
-    <uses-sdk android:minSdkVersion="9" android:targetSdkVersion="27" />
+
+    <uses-sdk android:targetSdkVersion="27" />
 
     <!-- AdMobに必要なパーミッションを設定する -->
     <uses-permission android:name="android.permission.INTERNET"/>
